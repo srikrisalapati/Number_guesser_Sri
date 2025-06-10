@@ -18,6 +18,7 @@ print("Starting the Game")
 while True :
     sys_guess = random.randint(1, 100)
     # print("Random number choosen:" ,sys_guess )
+    # push it to GIThub
     while True : 
         try :
             guesser_input = input("Guess the number between 1 and 100 or Q to quit the game:")
